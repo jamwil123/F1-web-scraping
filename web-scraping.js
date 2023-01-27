@@ -1,7 +1,5 @@
-const puppeteer = require('puppeteer')
-const fs = require('fs/promises')
 const axios = require('axios');
-const {driverPointsScrape} = require('./drivers-points-scraping-tool')
+const {driverPointsScrape} = require('./Scraping Tools/drivers-points-scraping-tool')
 let pointsData 
 let mainURL = 'https://f1-api.netlify.app/.netlify/functions'
 let addNewValuesSubURL = {subURL: '/api/drivers/data/add_data', method: 'patch'} 
