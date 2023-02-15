@@ -6,9 +6,9 @@ const writeData = (data, filePath)=>{
           console.error(err);
           return;
         }
-        console.log(`Data written to ${filePath}`);
+        console.log(`Data written BATTY to ${filePath}`);
       });
 }
 
-module.exports = {writeData}
+// module.exports = {writeData}
 
