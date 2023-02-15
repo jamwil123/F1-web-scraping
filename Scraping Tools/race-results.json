@@ -1,0 +1,160 @@
+{
+  "2022": {
+    "race-results": [
+      {
+        "race-name": "Bahrain",
+        "winner": "Charles Leclerc",
+        "winner-car": "Ferrari",
+        "date": "20/3/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Saudi Arabia",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "27/3/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Australia",
+        "winner": "Charles Leclerc",
+        "winner-car": "Ferrari",
+        "date": "10/4/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Emilia Romagna",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "24/4/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Miami",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "8/5/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Spain",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "22/5/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Monaco",
+        "winner": "Sergio Perez",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "29/5/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Azerbaijan",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "12/6/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Canada",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "19/6/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Great Britain",
+        "winner": "Carlos Sainz",
+        "winner-car": "Ferrari",
+        "date": "3/7/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Austria",
+        "winner": "Charles Leclerc",
+        "winner-car": "Ferrari",
+        "date": "10/7/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "France",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "24/7/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Hungary",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "31/7/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Belgium",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "28/8/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Netherlands",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "4/9/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Italy",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "11/9/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Singapore",
+        "winner": "Sergio Perez",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "2/10/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Japan",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "9/10/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "United States",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "23/10/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Mexico",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "30/10/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Brazil",
+        "winner": "George Russell",
+        "winner-car": "Mercedes",
+        "date": "13/11/2022",
+        "final-grid": []
+      },
+      {
+        "race-name": "Abu Dhabi",
+        "winner": "Max Verstappen",
+        "winner-car": "Red Bull Racing RBPT",
+        "date": "20/11/2022",
+        "final-grid": []
+      }
+    ]
+  }
+}

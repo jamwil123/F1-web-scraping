@@ -1,0 +1,74 @@
+[
+  {
+    "2022": {
+      "drivers": {
+        "Lewis Hamilton": {
+          "wins": 103,
+          "team": "Mercedes",
+          "country": "United Kingdom",
+          "podiums": 4,
+          "points": 232
+        }
+      },
+      "teams": {
+        "Ferrari": {
+          "constructor-points": 22,
+          "wins": 156
+        }
+      },
+      "race-results": {
+        "bahrain": {
+          "winner": "Charles Leclerc",
+          "winner-car": "Ferrari",
+          "final-grid": [
+            {
+              "name": "Charles Leclerc",
+              "driver-number": 16,
+              "laps-completed": 57,
+              "date": "20/12/22",
+              "time": "1:37:33.584",
+              "points": 26
+            }
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "teams": {
+      "Ferrari": {
+        "constructor-points": 22,
+        "total-wins": 156,
+        "Full-Team-Name": "Ferrari",
+        "office-location": "italy",
+        "team-chief": "s",
+        "technical-chief": "a",
+        "chassis": "SF-23",
+        "power-unit": "Ferrari",
+        "first-appearance": "1950",
+        "world-championships": "16",
+        "highest-race-finish": "1(x243)",
+        "pole-positions": "242",
+        "fastest-laps": "258"
+      }
+    }
+  },
+  {
+    "drivers": {
+      "Lewis Hamilton": {
+        "wins": 103,
+        "team": "Mercedes",
+        "country": "United Kingdom",
+        "podiums": 191,
+        "points": 4405.5,
+        "grands-prix-entered": 310,
+        "world-championships": 7,
+        "highest-race-finish": "1(x103)",
+        "highest-grid-position": 1,
+        "date-of-birth": "07/01/1985",
+        "place-of-birth": "Stevenage, England"
+      }
+    }
+  }
+]

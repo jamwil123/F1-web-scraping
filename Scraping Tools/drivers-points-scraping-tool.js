@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer')
+let pointsData 
 
 async function driverPointsScrape() {
     const browser = await puppeteer.launch()
@@ -17,13 +18,14 @@ async function driverPointsScrape() {
         })
 
         return driversNames.map((x, i)=>{
-            return {[x]:{'Points': driversPoints[i]}}
+            return {[x]:{'Points': parseInt(driversPoints[i])}}
         })
 
     })
     console.log(pointsData, 'names')
     
     await browser.close()
+    return pointsData
 }
 
-module.exports={driverPointsScrape}
+module.exports={driverPointsScrape, pointsData}
