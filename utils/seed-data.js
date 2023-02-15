@@ -6,7 +6,7 @@ const db = require('./db')
 const seedData = () =>{
 
     async function runLoop() {
-        for (let i = 1950; i <= 1975; i++) {
+        for (let i = 1950; i <= 2022; i++) {
           await new Promise(resolve => {
             setTimeout(() => {
                 const data = require(`../data/race-results-${i.toString()}`)
