@@ -98,13 +98,11 @@ writeData(data, `../data/race-results-${year}.json`)
 
 async function runMultipleScrapes() {
     const numScrapes = 2022;
-    const promises = [];
     
-    for (let i = 2001; i <= numScrapes; i++) {
-      promises.push(previousYearsScrape(i.toString(), "races")); // Add each scrape as a Promise
+    for (let i = 1950; i <= numScrapes; i++) {
+      await previousYearsScrape(i.toString(), "races")
+         
     }
-    
-    await Promise.all(promises); // Wait for all Promises to resolve
   }
   
   runMultipleScrapes();
