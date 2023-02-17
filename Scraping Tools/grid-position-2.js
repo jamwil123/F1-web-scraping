@@ -1,25 +1,29 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
+const {writeData} = require("../utils/write-file")
 
 process.setMaxListeners(75);
 
-// async function individialRaceLinks(year, category) {
-//   const browser = await puppeteer.launch({
-//     headless: true,
-//     args: ["--max_old_space_size=8192"],
-//   });
-//   const page = await browser.newPage();
-//   await page.goto(
-//     `https://www.formula1.com/en/results.html/${year}/${category}.html`
-//   );
+async function individialRaceLinks() {
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ["--max_old_space_size=8192"],
+    });
+    const page = await browser.newPage();
+    await page.goto(
+      `https://www.formula1.com/en/drivers.html`
+    );
+  
+    const hrefValues = await page.$$eval('body > div.site-wrapper > main > div.container.listing-items--wrapper.driver.pre-season > div > div > a', aTags => aTags.map(aTag => aTag.href));
+    await browser.close();
+  
+  
+      writeData(hrefValues, `../data/current-drivers/driver-profile-links.json`);
+  
+  
+  }
 
-//   const hrefValues = await page.$$eval('body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div > div.table-wrap > table > tbody > tr > td > a', aTags => aTags.map(aTag => aTag.href));
-// console.log(hrefValues)
-//   await browser.close();
-
-//   writeData(hrefValues, `../data/final-grid/final-grid-links-${year}.json`);
-
-// }
+ 
 
 async function previousRacesScrape(link, year) {
   const browser = await puppeteer.launch({
@@ -30,12 +34,17 @@ async function previousRacesScrape(link, year) {
   await page.goto(link);
 
   data = await page.evaluate((year) => {
-    const driverNo = Array.from(
+    const position = Array.from(
       document.querySelectorAll(
-        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td.dark.hide-for-mobile"
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(2)"
       )
     ).map((x) => x.textContent);
 
+    const driverNo = Array.from(
+      document.querySelectorAll(
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(3)"
+      )
+    ).map((x) => x.textContent);
     const firstNames = Array.from(
       document.querySelectorAll(
         "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td > span.hide-for-tablet"
@@ -50,25 +59,25 @@ async function previousRacesScrape(link, year) {
 
     const car = Array.from(
       document.querySelectorAll(
-        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td.semi-bold.uppercase.hide-for-tablet"
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(5)"
       )
     ).map((x) => x.textContent);
 
     const laps = Array.from(
       document.querySelectorAll(
-        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td.bold.hide-for-mobile"
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(6)"
       )
     ).map((x) => x.textContent);
 
     const totalTime = Array.from(
       document.querySelectorAll(
-        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td"
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(7)"
       )
     ).map((x) => x.textContent);
 
     const points = Array.from(
       document.querySelectorAll(
-        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td"
+        "body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div.resultsarchive-content.group > div.resultsarchive-col-right > table > tbody > tr > td:nth-child(8)"
       )
     ).map((x) => x.textContent);
 
@@ -95,64 +104,97 @@ async function previousRacesScrape(link, year) {
     //   return `${day}/${month}/${year1}`;
     // });
 
-    const raceResults = fullDriversNames.map((x, i) => {
+    return fullDriversNames.map((x, i) => {
       return {
-        position: i + 1,
-        "winner-car": parseInt(car[i]),
+        position: position[i],
+        "car-driven": car[i],
         "drivers-number": driverNo[i],
         "drivers-name": fullDriversNames[i],
-        laps: parseInt(laps[i]),
+        laps: laps[i],
         "final-time": totalTime[i],
         "points-earned": points[i],
+        race: country[i],
       };
     });
 
-    return { [country]: raceResults };
   }, year);
 
-//   console.log(data);
+  //   console.log(data);
   await browser.close();
 
   // updateJSONFile(data, `../data/race-results-${year}.json`)
-
   return data;
 }
 
-const linksList = async () => {
-  for (let i = 1950; i <= 1955; i++) {
-    const links = require(`../data/final-grid/final-grid-links-${i}.json`);
-    let promises = 
-      links.map(async (link) => {
-        return await previousRacesScrape(link, i);
-      }
-      );
-      let populatedArray = await Promise.all(promises)
-
-    fs.readFile(`../data/archive-races/race-results-${i}.json`, 'utf8', (err, data) => {
-        if (err) {
-          console.log(err);
-        } else {
-          const jsonData = JSON.parse(data);
-          console.log(jsonData[i.toString()]["race-results"],"\n", populatedArray[0] )
-          jsonData[i.toString()]["race-results"].map((results) => {
-            // if(results["race-name"] === object)
-            console.log()
-          });
-          const newJsonData = JSON.stringify(jsonData);
-          // Write the new JSON data to the file using a server-side script or other appropriate method
+const getData = (i) => {
+    return new Promise((resolve, reject) => {
+      fs.readFile(
+        `../data/archive-races/race-results-${i}.json`,
+        "utf8",
+        (err, data) => {
+          if (err) {
+            reject(err);
+          } else {
+            resolve(JSON.parse(data));
+          }
         }
-      });
+      );
+    });
+  };
+
+const mutateDataIntoOne = (jsonData, populatedArray, i) => {
+  return jsonData[i.toString()]["race-results"].map((results, index) => {
+    // console.log(Object.keys(populatedArray[index]))
+    const resultsObj = { ...results };
+    resultsObj["final-grid"] = populatedArray[index][index];
+    return resultsObj;
+  });
+
+  
+};
+
+const callWebScrape = async (i, iteration) => {
+  const link = require(`../data/final-grid/final-grid-links-${i}-${iteration}.json`);
+  
+   return await previousRacesScrape(link[0], i)
+};
+
+const writeDataToFile = (data, i) => {
+  const newJsonData = JSON.stringify(data);
+  fs.writeFile(
+    `../data/archive-races/race-results-${i}.json`,
+    newJsonData,
+    "utf8",
+    (err) => {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log(
+          `Data written to ../data/archive-races/race-results-${i}.json`
+        );
+      }
+    }
+  );
+};
+
+const linksList = async () => {
+  for (let i = 1950; i <= 2022; i++) {
+
+    await individialRaceLinks(i, "races")
+    // Calls the webscrape function to get the data(takes an index value eg year)
+    
+    
+    // Calls FS to read the data in the archive(takes an index eg year)
+    // let archiveData = await getData(i);
+
+    // Mutates both the archive data and the webscrape data together
+    // let mutatedData = mutateDataIntoOne(archiveData, webScrapeData, i);
+    // console.log(mutatedData)
+
+    // writeDataToFile(mutatedData, i);
   }
 };
 
-linksList();
+individialRaceLinks()
 
-// async function runMultipleScrapes() {
-//   const numScrapes = 2022;
-
-//   for (let i = 1950; i <= numScrapes; i++) {
-//     await individialRaceLinks(i.toString(), "races");
-//   }
-// }
-
-// runMultipleScrapes();
+module.exports = {callWebScrape, previousRacesScrape}

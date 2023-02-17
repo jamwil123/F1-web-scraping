@@ -90,7 +90,7 @@ async function previousYearsScrape(year, category) {
 
   await browser.close();
 
-writeData(data, `../data/race-results-${year}.json`)
+writeData(data, `../data/archive-races/race-results-${year}.json`)
 
   return data;
 }
@@ -99,7 +99,7 @@ writeData(data, `../data/race-results-${year}.json`)
 async function runMultipleScrapes() {
     const numScrapes = 2022;
     
-    for (let i = 1950; i <= numScrapes; i++) {
+    for (let i = 2001; i <= numScrapes; i++) {
       await previousYearsScrape(i.toString(), "races")
          
     }

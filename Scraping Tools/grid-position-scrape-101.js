@@ -3,23 +3,26 @@ const { data } = require("./previous-years-scrape");
 
 process.setMaxListeners(75);
 
-// async function individialRaceLinks(year, category) {
-//   const browser = await puppeteer.launch({
-//     headless: true,
-//     args: ["--max_old_space_size=8192"],
-//   });
-//   const page = await browser.newPage();
-//   await page.goto(
-//     `https://www.formula1.com/en/results.html/${year}/${category}.html`
-//   );
+async function individialRaceLinks(year, category) {
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--max_old_space_size=8192"],
+  });
+  const page = await browser.newPage();
+  await page.goto(
+    `https://www.formula1.com/en/results.html/${year}/${category}.html`
+  );
 
-//   const hrefValues = await page.$$eval('body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div > div.table-wrap > table > tbody > tr > td > a', aTags => aTags.map(aTag => aTag.href));
-// console.log(hrefValues)
-//   await browser.close();
+  const hrefValues = await page.$$eval('body > div.site-wrapper > main > article > div > div.ResultArchiveContainer > div.resultsarchive-wrapper > div > div.table-wrap > table > tbody > tr > td > a', aTags => aTags.map(aTag => aTag.href));
+console.log(hrefValues)
+  await browser.close();
 
-//   writeData(hrefValues, `../data/final-grid/final-grid-links-${year}.json`);
+  hrefValues.map((x, index)=>{
+    writeData([...x], `../data/final-grid/final-grid-links-${year}-${index}.json`);
 
-// }
+  })
+
+}
 
 async function previousRacesScrape(link, year) {
   const browser = await puppeteer.launch({

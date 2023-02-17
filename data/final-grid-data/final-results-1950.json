@@ -1,0 +1,1445 @@
+[
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "2",
+      "drivers-name": "Nino Farina",
+      "laps": "70",
+      "final-time": "2:13:23.600",
+      "points-earned": "9",
+      "race": "Great Britain"
+    },
+    {
+      "position": "2",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "3",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "70",
+      "final-time": "+2.600s",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "4",
+      "drivers-name": "Reg  Parnell",
+      "laps": "70",
+      "final-time": "+52.000s",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "14",
+      "drivers-name": "Yves Giraud-Cabantous",
+      "laps": "68",
+      "final-time": "+2 laps",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "15",
+      "drivers-name": "Louis  Rosier",
+      "laps": "68",
+      "final-time": "+2 laps",
+      "points-earned": "2"
+    },
+    {
+      "position": "6",
+      "car-driven": "ERA",
+      "drivers-number": "12",
+      "drivers-name": "Bob  Gerard",
+      "laps": "67",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "ERA",
+      "drivers-number": "11",
+      "drivers-name": "Cuth  Harrison",
+      "laps": "67",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "8",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "16",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "65",
+      "final-time": "+5 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "9",
+      "car-driven": "Maserati",
+      "drivers-number": "6",
+      "drivers-name": "David  Hampshire",
+      "laps": "64",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "10",
+      "car-driven": "Maserati",
+      "drivers-number": "10",
+      "drivers-name": "Joe Fry",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "10",
+      "car-driven": "Maserati",
+      "drivers-number": "10",
+      "drivers-name": "Brian Shawe-Taylor",
+      "laps": "64",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "11",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "18",
+      "drivers-name": "Johnny Claes",
+      "laps": "64",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "1",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "62",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alta",
+      "drivers-number": "23",
+      "drivers-name": "Joe Kelly",
+      "laps": "57",
+      "final-time": "+13 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "21",
+      "drivers-name": "Prince Bira",
+      "laps": "49",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "5",
+      "drivers-name": "David  Murray",
+      "laps": "44",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alta",
+      "drivers-number": "24",
+      "drivers-name": "Geoff Crossley",
+      "laps": "43",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "20",
+      "drivers-name": "Toulo de Graffenried",
+      "laps": "36",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "19",
+      "drivers-name": "Louis  Chiron",
+      "laps": "24",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "17",
+      "drivers-name": "Eugene  Martin",
+      "laps": "8",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "ERA",
+      "drivers-number": "9",
+      "drivers-name": "Peter  Walker ",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "ERA",
+      "drivers-number": "9",
+      "drivers-name": "Tony Rolt",
+      "laps": "5",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "ERA",
+      "drivers-number": "8",
+      "drivers-name": "Leslie  Johnson",
+      "laps": "2",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "34",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "100",
+      "final-time": "3:13:18.700",
+      "points-earned": "9",
+      "race": "Monaco"
+    },
+    {
+      "position": "2",
+      "car-driven": "Ferrari",
+      "drivers-number": "40",
+      "drivers-name": "Alberto Ascari",
+      "laps": "99",
+      "final-time": "+1 lap",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Maserati",
+      "drivers-number": "48",
+      "drivers-name": "Louis  Chiron",
+      "laps": "98",
+      "final-time": "+2 laps",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Ferrari",
+      "drivers-number": "42",
+      "drivers-name": "Raymond  Sommer",
+      "laps": "97",
+      "final-time": "+3 laps",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Maserati",
+      "drivers-number": "50",
+      "drivers-name": "Prince Bira",
+      "laps": "95",
+      "final-time": "+5 laps",
+      "points-earned": "2"
+    },
+    {
+      "position": "6",
+      "car-driven": "ERA",
+      "drivers-number": "26",
+      "drivers-name": "Bob  Gerard",
+      "laps": "94",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "6",
+      "drivers-name": "Johnny Claes",
+      "laps": "94",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari",
+      "drivers-number": "38",
+      "drivers-name": "Luigi  Villoresi",
+      "laps": "63",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "14",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "36",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "2",
+      "drivers-name": "Jose Froilan Gonzalez",
+      "laps": "1",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "36",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "32",
+      "drivers-name": "Nino Farina",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "16",
+      "drivers-name": "Louis  Rosier",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Simca-Gordini",
+      "drivers-number": "10",
+      "drivers-name": "Robert  Manzon",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Cooper JAP",
+      "drivers-number": "8",
+      "drivers-name": "Harry Schell",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "52",
+      "drivers-name": "Toulo de Graffenried",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Simca-Gordini",
+      "drivers-number": "12",
+      "drivers-name": "Maurice  Trintignant",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "ERA",
+      "drivers-number": "24",
+      "drivers-name": "Cuth  Harrison",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "44",
+      "drivers-name": "Franco  Rol",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "1",
+      "drivers-name": "Johnnie  Parsons",
+      "laps": "138",
+      "final-time": "2:46:55.970",
+      "points-earned": "9",
+      "race": "United States"
+    },
+    {
+      "position": "2",
+      "car-driven": "Deidt Offenhauser",
+      "drivers-number": "3",
+      "drivers-name": "Bill Holland",
+      "laps": "137",
+      "final-time": "+1 lap",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Deidt Offenhauser",
+      "drivers-number": "31",
+      "drivers-name": "Mauri  Rose",
+      "laps": "137",
+      "final-time": "+1 lap",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "54",
+      "drivers-name": "Cecil  Green",
+      "laps": "137",
+      "final-time": "+1 lap",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "17",
+      "drivers-name": "Joie  Chitwood",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "1"
+    },
+    {
+      "position": "5",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "17",
+      "drivers-name": "Tony  Bettenhausen",
+      "laps": "136",
+      "final-time": "+2 laps",
+      "points-earned": "1"
+    },
+    {
+      "position": "6",
+      "car-driven": "Moore Offenhauser",
+      "drivers-number": "8",
+      "drivers-name": "Lee Wallard",
+      "laps": "136",
+      "final-time": "+2 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "98",
+      "drivers-name": "Walt  Faulkner",
+      "laps": "135",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "8",
+      "car-driven": "Lesovsky Offenhauser",
+      "drivers-number": "5",
+      "drivers-name": "George Connor",
+      "laps": "135",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "9",
+      "car-driven": "Nichels Offenhauser",
+      "drivers-number": "7",
+      "drivers-name": "Paul Russo",
+      "laps": "135",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "10",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "59",
+      "drivers-name": "Pat Flaherty",
+      "laps": "135",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "11",
+      "car-driven": "Marchese Offenhauser",
+      "drivers-number": "2",
+      "drivers-name": "Myron Fohr",
+      "laps": "133",
+      "final-time": "+5 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "12",
+      "car-driven": "Stevens Offenhauser",
+      "drivers-number": "18",
+      "drivers-name": "Duane Carter",
+      "laps": "133",
+      "final-time": "+5 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "13",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "15",
+      "drivers-name": "Mack Hellings",
+      "laps": "132",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "14",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "49",
+      "drivers-name": "Jack McGrath",
+      "laps": "131",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "15",
+      "car-driven": "Lesovsky Offenhauser",
+      "drivers-number": "55",
+      "drivers-name": "Troy Ruttman",
+      "laps": "130",
+      "final-time": "+8 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "16",
+      "car-driven": "Langley Offenhauser",
+      "drivers-number": "75",
+      "drivers-name": "Gene Hartley",
+      "laps": "128",
+      "final-time": "+10 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "17",
+      "car-driven": "Ewing Offenhauser",
+      "drivers-number": "22",
+      "drivers-name": "Jimmy Davies",
+      "laps": "128",
+      "final-time": "+10 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "18",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "62",
+      "drivers-name": "Johnny McDowell",
+      "laps": "128",
+      "final-time": "+10 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "19",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "4",
+      "drivers-name": "Walt Brown",
+      "laps": "127",
+      "final-time": "+11 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "20",
+      "car-driven": "Maserati Offenhauser",
+      "drivers-number": "21",
+      "drivers-name": "Spider Webb",
+      "laps": "126",
+      "final-time": "+12 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "21",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "81",
+      "drivers-name": "Jerry  Hoyt",
+      "laps": "125",
+      "final-time": "+13 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "22",
+      "car-driven": "Rae Offenhauser",
+      "drivers-number": "27",
+      "drivers-name": "Walt Ader",
+      "laps": "123",
+      "final-time": "+15 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "23",
+      "car-driven": "Olson Offenhauser",
+      "drivers-number": "77",
+      "drivers-name": "Jackie Holmes",
+      "laps": "123",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "24",
+      "car-driven": "Wetteroth Offerhauser",
+      "drivers-number": "76",
+      "drivers-name": "Jim Rathmann",
+      "laps": "122",
+      "final-time": "+16 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "25",
+      "car-driven": "Maserati Offenhauser",
+      "drivers-number": "12",
+      "drivers-name": "Henry Banks",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "25",
+      "car-driven": "Maserati Offenhauser",
+      "drivers-number": "12",
+      "drivers-name": "Fred Agabashian",
+      "laps": "112",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "26",
+      "car-driven": "Snowberger Offenhauser",
+      "drivers-number": "67",
+      "drivers-name": "Bill Schindler",
+      "laps": "111",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "27",
+      "car-driven": "Adams Offenhauser",
+      "drivers-number": "24",
+      "drivers-name": "Bayliss Levrett",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "27",
+      "car-driven": "Adams Offenhauser",
+      "drivers-number": "24",
+      "drivers-name": "Bill Cantrell",
+      "laps": "108",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "28",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "28",
+      "drivers-name": "Fred Agabashian",
+      "laps": "64",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "29",
+      "car-driven": "Kurtis Kraft Cummins",
+      "drivers-number": "61",
+      "drivers-name": "Jimmy Jackson",
+      "laps": "52",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "30",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "23",
+      "drivers-name": "Sam Hanks",
+      "laps": "42",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "31",
+      "car-driven": "Deidt Offenhauser",
+      "drivers-number": "14",
+      "drivers-name": "Tony  Bettenhausen",
+      "laps": "30",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "32",
+      "car-driven": "Watson Offenhauser",
+      "drivers-number": "45",
+      "drivers-name": "Dick Rathmann",
+      "laps": "25",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "33",
+      "car-driven": "Kurtis Kraft Offenhauser",
+      "drivers-number": "69",
+      "drivers-name": "Duke Dinsmore",
+      "laps": "10",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "16",
+      "drivers-name": "Nino Farina",
+      "laps": "42",
+      "final-time": "2:02:53.700",
+      "points-earned": "9",
+      "race": "Switzerland"
+    },
+    {
+      "position": "2",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "12",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "42",
+      "final-time": "+0.400s",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "10",
+      "drivers-name": "Louis  Rosier",
+      "laps": "41",
+      "final-time": "+1 lap",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Maserati",
+      "drivers-number": "30",
+      "drivers-name": "Prince Bira",
+      "laps": "40",
+      "final-time": "+2 laps",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Maserati Milano",
+      "drivers-number": "34",
+      "drivers-name": "Felice  Bonetto",
+      "laps": "40",
+      "final-time": "+2 laps",
+      "points-earned": "2"
+    },
+    {
+      "position": "6",
+      "car-driven": "Maserati",
+      "drivers-number": "32",
+      "drivers-name": "Toulo de Graffenried",
+      "laps": "40",
+      "final-time": "+2 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Maserati",
+      "drivers-number": "2",
+      "drivers-name": "Nello  Pagani",
+      "laps": "39",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "8",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "44",
+      "drivers-name": "Harry Schell",
+      "laps": "39",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "9",
+      "car-driven": "Maserati",
+      "drivers-number": "26",
+      "drivers-name": "Louis  Chiron",
+      "laps": "39",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "10",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "4",
+      "drivers-name": "Johnny Claes",
+      "laps": "39",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "11",
+      "car-driven": "Maserati",
+      "drivers-number": "40",
+      "drivers-name": "Toni  Branca",
+      "laps": "35",
+      "final-time": "+7 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "14",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "33",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "42",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "25",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari",
+      "drivers-number": "20",
+      "drivers-name": "Raymond  Sommer",
+      "laps": "19",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "8",
+      "drivers-name": "Eugene  Martin",
+      "laps": "19",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari",
+      "drivers-number": "22",
+      "drivers-name": "Luigi  Villoresi",
+      "laps": "9",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari",
+      "drivers-number": "18",
+      "drivers-name": "Alberto Ascari",
+      "laps": "4",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "6",
+      "drivers-name": "Yves Giraud-Cabantous",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "10",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "35",
+      "final-time": "2:47:26.000",
+      "points-earned": "8",
+      "race": "Belgium"
+    },
+    {
+      "position": "2",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "12",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "35",
+      "final-time": "+14.000s",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "14",
+      "drivers-name": "Louis  Rosier",
+      "laps": "35",
+      "final-time": "+139.000s",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "8",
+      "drivers-name": "Nino Farina",
+      "laps": "35",
+      "final-time": "+245.000s",
+      "points-earned": "4"
+    },
+    {
+      "position": "5",
+      "car-driven": "Ferrari",
+      "drivers-number": "4",
+      "drivers-name": "Alberto Ascari",
+      "laps": "34",
+      "final-time": "+1 lap",
+      "points-earned": "2"
+    },
+    {
+      "position": "6",
+      "car-driven": "Ferrari",
+      "drivers-number": "2",
+      "drivers-name": "Luigi  Villoresi",
+      "laps": "33",
+      "final-time": "+2 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "22",
+      "drivers-name": "Pierre  Levegh",
+      "laps": "33",
+      "final-time": "+2 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "8",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "24",
+      "drivers-name": "Johnny Claes",
+      "laps": "32",
+      "final-time": "+3 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "9",
+      "car-driven": "Alta",
+      "drivers-number": "26",
+      "drivers-name": "Geoff Crossley",
+      "laps": "30",
+      "final-time": "+5 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "10",
+      "car-driven": "Maserati",
+      "drivers-number": "30",
+      "drivers-name": "Toni  Branca",
+      "laps": "29",
+      "final-time": "+6 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "20",
+      "drivers-name": "Eugene  Chaboud",
+      "laps": "22",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "6",
+      "drivers-name": "Raymond  Sommer",
+      "laps": "20",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "16",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "15",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "18",
+      "drivers-name": "Yves Giraud-Cabantous",
+      "laps": "2",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "6",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "64",
+      "final-time": "2:57:52.800",
+      "points-earned": "9",
+      "race": "France"
+    },
+    {
+      "position": "2",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "4",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "64",
+      "final-time": "+25.700s",
+      "points-earned": "6"
+    },
+    {
+      "position": "3",
+      "car-driven": "Ferrari",
+      "drivers-number": "14",
+      "drivers-name": "Peter  Whitehead",
+      "laps": "61",
+      "final-time": "+3 laps",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Simca-Gordini",
+      "drivers-number": "44",
+      "drivers-name": "Robert  Manzon",
+      "laps": "61",
+      "final-time": "+3 laps",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "16",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "1"
+    },
+    {
+      "position": "5",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "16",
+      "drivers-name": "Eugene  Chaboud",
+      "laps": "59",
+      "final-time": "+5 laps",
+      "points-earned": "1"
+    },
+    {
+      "position": "6",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "26",
+      "drivers-name": "Charles  Pozzi ",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "6",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "26",
+      "drivers-name": "Louis  Rosier",
+      "laps": "56",
+      "final-time": "+8 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "2",
+      "drivers-name": "Nino Farina",
+      "laps": "55",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "8",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "18",
+      "drivers-name": "Yves Giraud-Cabantous",
+      "laps": "52",
+      "final-time": "+12 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "22",
+      "drivers-name": "Pierre  Levegh",
+      "laps": "37",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati Milano",
+      "drivers-number": "40",
+      "drivers-name": "Felice  Bonetto",
+      "laps": "15",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "42",
+      "drivers-name": "Johnny Claes",
+      "laps": "12",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "20",
+      "drivers-name": "Louis  Rosier",
+      "laps": "11",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "32",
+      "drivers-name": "Reg  Parnell",
+      "laps": "10",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "28",
+      "drivers-name": "Franco  Rol",
+      "laps": "7",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "30",
+      "drivers-name": "Louis  Chiron",
+      "laps": "7",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "34",
+      "drivers-name": "David  Hampshire",
+      "laps": "6",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "12",
+      "drivers-name": "Raymond  Sommer",
+      "laps": "5",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "36",
+      "drivers-name": "Jose Froilan Gonzalez",
+      "laps": "4",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ],
+  [
+    {
+      "position": "1",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "10",
+      "drivers-name": "Nino Farina",
+      "laps": "80",
+      "final-time": "2:51:17.400",
+      "points-earned": "8",
+      "race": "Italy"
+    },
+    {
+      "position": "2",
+      "car-driven": "Ferrari",
+      "drivers-number": "48",
+      "drivers-name": "Dorino  Serafini",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "3"
+    },
+    {
+      "position": "2",
+      "car-driven": "Ferrari",
+      "drivers-number": "48",
+      "drivers-name": "Alberto Ascari",
+      "laps": "80",
+      "final-time": "+78.600s",
+      "points-earned": "3"
+    },
+    {
+      "position": "3",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "36",
+      "drivers-name": "Luigi Fagioli",
+      "laps": "80",
+      "final-time": "+95.600s",
+      "points-earned": "4"
+    },
+    {
+      "position": "4",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "58",
+      "drivers-name": "Louis  Rosier",
+      "laps": "75",
+      "final-time": "+5 laps",
+      "points-earned": "3"
+    },
+    {
+      "position": "5",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "24",
+      "drivers-name": "Philippe  Etancelin",
+      "laps": "75",
+      "final-time": "+5 laps",
+      "points-earned": "2"
+    },
+    {
+      "position": "6",
+      "car-driven": "Maserati",
+      "drivers-number": "38",
+      "drivers-name": "Toulo de Graffenried",
+      "laps": "72",
+      "final-time": "+8 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "7",
+      "car-driven": "Ferrari",
+      "drivers-number": "8",
+      "drivers-name": "Peter  Whitehead",
+      "laps": "72",
+      "final-time": "+8 laps",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "50",
+      "drivers-name": "David  Murray",
+      "laps": "56",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "ERA",
+      "drivers-number": "32",
+      "drivers-name": "Cuth  Harrison",
+      "laps": "51",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "12",
+      "drivers-name": "Raymond  Sommer",
+      "laps": "48",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "40",
+      "drivers-name": "Guy  Mairesse",
+      "laps": "42",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "4",
+      "drivers-name": "Franco  Rol",
+      "laps": "39",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "60",
+      "drivers-name": "Piero  Taruffi",
+      "laps": "",
+      "final-time": "SHC",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "60",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "34",
+      "final-time": "DNF",
+      "points-earned": "1"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "56",
+      "drivers-name": "Pierre  Levegh",
+      "laps": "29",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "18",
+      "drivers-name": "Juan Manuel Fangio",
+      "laps": "23",
+      "final-time": "DNF",
+      "points-earned": "1"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "2",
+      "drivers-name": "Johnny Claes",
+      "laps": "22",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari",
+      "drivers-number": "16",
+      "drivers-name": "Alberto Ascari",
+      "laps": "21",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Ferrari Jaguar",
+      "drivers-number": "22",
+      "drivers-name": "Clemente  Biondetti",
+      "laps": "17",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Talbot-Lago",
+      "drivers-number": "64",
+      "drivers-name": "Henri Louveau",
+      "laps": "16",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati Milano",
+      "drivers-number": "62",
+      "drivers-name": "Franco  Comotti",
+      "laps": "15",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "6",
+      "drivers-name": "Louis  Chiron",
+      "laps": "13",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Simca-Gordini",
+      "drivers-number": "42",
+      "drivers-name": "Maurice  Trintignant",
+      "laps": "13",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Alfa Romeo",
+      "drivers-number": "46",
+      "drivers-name": "Consalvo  Sanesi",
+      "laps": "11",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Simca-Gordini",
+      "drivers-number": "44",
+      "drivers-name": "Robert  Manzon",
+      "laps": "7",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "30",
+      "drivers-name": "Prince Bira",
+      "laps": "1",
+      "final-time": "DNF",
+      "points-earned": "0"
+    },
+    {
+      "position": "NC",
+      "car-driven": "Maserati",
+      "drivers-number": "28",
+      "drivers-name": "Paul  Pietsch",
+      "laps": "0",
+      "final-time": "DNF",
+      "points-earned": "0"
+    }
+  ]
+]
