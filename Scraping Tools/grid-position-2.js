@@ -11,14 +11,14 @@ async function individialRaceLinks() {
     });
     const page = await browser.newPage();
     await page.goto(
-      `https://www.formula1.com/en/drivers.html`
+      `https://www.formula1.com/en/teams.html`
     );
   
-    const hrefValues = await page.$$eval('body > div.site-wrapper > main > div.container.listing-items--wrapper.driver.pre-season > div > div > a', aTags => aTags.map(aTag => aTag.href));
+    const hrefValues = await page.$$eval('body > div.site-wrapper > main > div.container.listing.team-listing > div > div > a', aTags => aTags.map(aTag => aTag.href));
     await browser.close();
   
   
-      writeData(hrefValues, `../data/current-drivers/driver-profile-links.json`);
+      writeData(hrefValues, `../data/current-teams/team-profile-links.json`);
   
   
   }
