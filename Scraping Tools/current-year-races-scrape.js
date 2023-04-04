@@ -211,7 +211,6 @@ async function runMultipleScrapes() {
         // console.log(singeRaceResults)
         raceResults[new Date().getFullYear().toString()]['race-results'][i]['final-grid'] = singeRaceResults
       }
-      console.log(raceResults[new Date().getFullYear().toString()]['race-results'][0])
    return raceResults
   }
   

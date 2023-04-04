@@ -2,7 +2,7 @@ const db = require("./db");
 const {driverStandingsScrape} = require('../Scraping Tools/current-drivers-standings')
 const {teamStandingsScrape} = require('../Scraping Tools/current-team-standings')
 const {runMultipleScrapes} = require('../Scraping Tools/current-year-races-scrape')
-
+const {runScrapesQualifying} = require("../Scraping Tools/current-year-qualifying-scrape")
 // console.log(schema[0]["2022"])
 
 const seedData = () => {
@@ -145,4 +145,29 @@ const seedTeamStandings = async () => {
     
       runLoop();
     };
+
+    const seedCurrentYearQualifying = async () => {
+      const data = await runScrapesQualifying()
+      console.log(data)
+        async function runLoop() {
+          for (let i = 0; i < 1; i++) {
+            await new Promise((resolve) => {
+              setTimeout(() => {
+                db.collection("previous-races")
+                  .doc(new Date().getFullYear().toString())
+                  .update({qualifying: data})
+                  .then((res) => {
+                    console.log(`data POSTED for ${new Date().getFullYear().toString()}` );
+                  });
+      
+                resolve();
+              }, 0);
+            });
+        }
+      }
+      
+        runLoop();
+      };
+
+      seedCurrentYearQualifying()
 
